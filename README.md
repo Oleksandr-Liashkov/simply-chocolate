@@ -6,3 +6,4 @@ v 0.0.4 - Fonts added.
 v 0.0.5 - Small updates.
 v 0.0.6 - Small updates.
 v 0.0.7 - Small updates.
+v 0.0.8 - Add favicon.
