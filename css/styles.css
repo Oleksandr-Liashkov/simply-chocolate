@@ -61,6 +61,20 @@ body {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    padding: 0 32px;
+  }
+}
+
 /* ------------------------------------------------------------ */
 
 /* MODAL MENU PRESET STYLES*/
@@ -112,6 +126,43 @@ body {
 /* HEADER */
 
 /* ------------------------------------------------------------ */
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.03em;
+  color: #111;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  text-transform: uppercase;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  span {
+    font-style: italic;
+  }
+}
+
+.header-menu-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: transparent;
+  border: none;
+  background-color: transparent;
+}
+
+.header-menu-icon {
+  fill: transparent;
+  stroke: #111111;
+}
 
 /* ------------------------------------------------------------ */
 

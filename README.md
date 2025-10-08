@@ -7,3 +7,4 @@ v 0.0.5 - Small updates.
 v 0.0.6 - Small updates.
 v 0.0.7 - Small updates.
 v 0.0.8 - Add favicon.
+v 0.1.0 - Mobile Header complete.
