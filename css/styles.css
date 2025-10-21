@@ -164,11 +164,36 @@ body {
   stroke: #111111;
 }
 
+@media screen and (min-width: 768px) {
+  .header-logo {
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
+}
+
 /* ------------------------------------------------------------ */
 
 /* INTRO SECTION */
 
 /* ------------------------------------------------------------ */
+
+.intro-container {
+  background-image: url(../images/intro-bg.jpg);
+  padding-top: 395px;
+  padding-bottom: 20px;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+
+.inner-container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.intro-wrap {
+  display: flex;
+  justify-content: space-between;
+}
 
 /* ------------------------------------------------------------ */
 
